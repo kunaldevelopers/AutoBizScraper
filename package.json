@@ -1,0 +1,29 @@
+{
+  "name": "ranchi-business-scraper",
+  "version": "1.0.0",
+  "description": "Advanced CLI bot to scrape Ranchi business directory",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node start.js",
+    "bot": "node bot.js",
+    "test": "node test.js",
+    "setup": "node extract_links.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "xlsx": "^0.18.5",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "cli-progress": "^3.12.0",
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": [
+    "scraping",
+    "business",
+    "directory",
+    "ranchi",
+    "puppeteer"
+  ],
+  "author": "Kunal Developer",
+  "license": "MIT"
+}
