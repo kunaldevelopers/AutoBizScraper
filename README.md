@@ -109,11 +109,13 @@ AutoBizScraper/
 ├── bot.js                 # Core scraping engine
 ├── start.js              # Interactive CLI launcher
 ├── extract_links.js      # Business links extractor
+├── test.js               # Test suite
 ├── business_links.json   # Categories database (286+ entries)
 ├── scraped_data/         # Output directory for Excel files
-├── package.json          # Project configuration
+├── package.json          # Project configuration & dependencies
 ├── setup.bat            # Windows setup script
 ├── setup.sh             # Unix setup script
+├── .gitignore           # Git ignore rules
 └── README.md            # Documentation
 ```
 

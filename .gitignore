@@ -61,8 +61,14 @@ typings/
 .next
 
 # Scraped data
-scraped_data/
+scraped_data/*.xlsx
 *.xlsx
+
+# Test/Debug files
+page*.html  
+final-page-*.html
+child-specialist-*.html
+*.txt
 
 # Puppeteer cache
 .cache/
